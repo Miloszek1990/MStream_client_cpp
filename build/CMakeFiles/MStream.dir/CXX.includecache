@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/M-Stream_cpp/include/Client.hpp
+string
+-
+
+/home/pi/M-Stream_cpp/source/Client.cpp
+iostream
+-
+string
+-
+sys/socket.h
+-
+netdb.h
+-
+string.h
+-
+unistd.h
+-
+../include/Client.hpp
+/home/pi/M-Stream_cpp/include/Client.hpp
+
