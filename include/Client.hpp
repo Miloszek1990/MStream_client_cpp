@@ -1,4 +1,5 @@
 #include <string>
+#include <opencv2/opencv.hpp>
 
 class Client
 {	
@@ -14,5 +15,5 @@ class Client
         ~Client();
 
         void printData();
-        void sendData(std::string& msg);
+        void sendData(cv::Mat&, int);
 };

@@ -6,6 +6,8 @@
 #include <string.h>
 #include <unistd.h>
 
+#include <opencv2/opencv.hpp>
+
 #include "../include/Client.hpp"
 
 Client::Client(std::string serverIP, int port): 
@@ -33,7 +35,7 @@ int Client::initializeConnection()
     sockaddr_in serv_addr;
     hostent *server;
 
-    std::cout << "Connecting with" << IP << "on port " << port_ << std::endl;
+    std::cout << "Connecting with " << IP << " on port " << port_ << std::endl;
     if ( ( sockfd = socket(AF_INET, SOCK_STREAM, 0) ) < 0 )
         error( const_cast<char *>( "ERROR opening socket") );
 
@@ -51,14 +53,13 @@ int Client::initializeConnection()
     return sockfd;
 }
 
-void Client::sendData(std::string& msg)
+void Client::sendData(cv::Mat& frame, int frameSize)
 {   
-    int n;
     int sockfd = initializeConnection();
-    const char *cmsg = msg.c_str();
-
-    if ( (n = write( sockfd, cmsg, strlen(cmsg) ) ) < 0 )
-        perror( const_cast<char *>( "ERROR writing to socket") );
-
-    close( sockfd );
+    send(sockfd, frame.data, frameSize, 0);
+    
+    //const char *cmsg = msg.c_str();
+    //if ( (n = write( sockfd, cmsg, strlen(cmsg) ) ) < 0 )
+    //    perror( const_cast<char *>( "ERROR writing to socket") );
+    //close( sockfd );
 }

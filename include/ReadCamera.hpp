@@ -1,12 +1,18 @@
 #include <string>
+#include <typeinfo>
+
+#include <opencv2/opencv.hpp>
 
 class ReadCamera
 {	
     private:
-		std::string serverIP_;
-		int port_;
+        int imgWgth_;
+        int imgHght_;
 
     public:
-        ReadCamera(std::string, int);
+        ReadCamera(int, int);
         ~ReadCamera();
+
+        void frameCapture(cv::Mat&);
+
 };
