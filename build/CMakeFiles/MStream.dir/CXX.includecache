@@ -6,9 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/home/pi/M-Stream_cpp/./include/Client.hpp
+string
+-
+
+/home/pi/M-Stream_cpp/./include/ReadCamera.hpp
+string
+-
+
 /home/pi/M-Stream_cpp/include/Client.hpp
 string
 -
+
+/home/pi/M-Stream_cpp/include/ReadCamera.hpp
+string
+-
+
+/home/pi/M-Stream_cpp/main.cpp
+iostream
+-
+string
+-
+./include/Client.hpp
+/home/pi/M-Stream_cpp/./include/Client.hpp
+./include/ReadCamera.hpp
+/home/pi/M-Stream_cpp/./include/ReadCamera.hpp
 
 /home/pi/M-Stream_cpp/source/Client.cpp
 iostream
@@ -25,4 +47,12 @@ unistd.h
 -
 ../include/Client.hpp
 /home/pi/M-Stream_cpp/include/Client.hpp
+
+/home/pi/M-Stream_cpp/source/ReadCamera.cpp
+iostream
+-
+string
+-
+../include/ReadCamera.hpp
+/home/pi/M-Stream_cpp/include/ReadCamera.hpp
 

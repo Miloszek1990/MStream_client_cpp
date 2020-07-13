@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pi/M-Stream_cpp/main.cpp" "/home/pi/M-Stream_cpp/build/CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/main.cpp.o"
   "/home/pi/M-Stream_cpp/source/Client.cpp" "/home/pi/M-Stream_cpp/build/CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/Client.cpp.o"
+  "/home/pi/M-Stream_cpp/source/ReadCamera.cpp" "/home/pi/M-Stream_cpp/build/CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/ReadCamera.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

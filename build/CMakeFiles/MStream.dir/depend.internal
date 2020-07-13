@@ -3,7 +3,11 @@
 
 CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/main.cpp.o
  /home/pi/M-Stream_cpp/./include/Client.hpp
+ /home/pi/M-Stream_cpp/./include/ReadCamera.hpp
  /home/pi/M-Stream_cpp/main.cpp
 CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/Client.cpp.o
  /home/pi/M-Stream_cpp/include/Client.hpp
  /home/pi/M-Stream_cpp/source/Client.cpp
+CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/ReadCamera.cpp.o
+ /home/pi/M-Stream_cpp/include/ReadCamera.hpp
+ /home/pi/M-Stream_cpp/source/ReadCamera.cpp

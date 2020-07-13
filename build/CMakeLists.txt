@@ -25,6 +25,7 @@ add_executable(
     ${PROJECT_NAME}
     ../main.cpp
     ../source/Client.cpp
+    ../source/ReadCamera.cpp
 )
 
 target_link_libraries( ${PROJECT_NAME} 

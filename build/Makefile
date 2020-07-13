@@ -177,6 +177,33 @@ home/pi/M-Stream_cpp/source/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/MStream.dir/build.make CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/Client.cpp.s
 .PHONY : home/pi/M-Stream_cpp/source/Client.cpp.s
 
+home/pi/M-Stream_cpp/source/ReadCamera.o: home/pi/M-Stream_cpp/source/ReadCamera.cpp.o
+
+.PHONY : home/pi/M-Stream_cpp/source/ReadCamera.o
+
+# target to build an object file
+home/pi/M-Stream_cpp/source/ReadCamera.cpp.o:
+	$(MAKE) -f CMakeFiles/MStream.dir/build.make CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/ReadCamera.cpp.o
+.PHONY : home/pi/M-Stream_cpp/source/ReadCamera.cpp.o
+
+home/pi/M-Stream_cpp/source/ReadCamera.i: home/pi/M-Stream_cpp/source/ReadCamera.cpp.i
+
+.PHONY : home/pi/M-Stream_cpp/source/ReadCamera.i
+
+# target to preprocess a source file
+home/pi/M-Stream_cpp/source/ReadCamera.cpp.i:
+	$(MAKE) -f CMakeFiles/MStream.dir/build.make CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/ReadCamera.cpp.i
+.PHONY : home/pi/M-Stream_cpp/source/ReadCamera.cpp.i
+
+home/pi/M-Stream_cpp/source/ReadCamera.s: home/pi/M-Stream_cpp/source/ReadCamera.cpp.s
+
+.PHONY : home/pi/M-Stream_cpp/source/ReadCamera.s
+
+# target to generate assembly for a file
+home/pi/M-Stream_cpp/source/ReadCamera.cpp.s:
+	$(MAKE) -f CMakeFiles/MStream.dir/build.make CMakeFiles/MStream.dir/home/pi/M-Stream_cpp/source/ReadCamera.cpp.s
+.PHONY : home/pi/M-Stream_cpp/source/ReadCamera.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... home/pi/M-Stream_cpp/source/Client.o"
 	@echo "... home/pi/M-Stream_cpp/source/Client.i"
 	@echo "... home/pi/M-Stream_cpp/source/Client.s"
+	@echo "... home/pi/M-Stream_cpp/source/ReadCamera.o"
+	@echo "... home/pi/M-Stream_cpp/source/ReadCamera.i"
+	@echo "... home/pi/M-Stream_cpp/source/ReadCamera.s"
 .PHONY : help
 
 
